@@ -62,11 +62,11 @@ gsap.from(".header-text, .header-button", {
 /* ========== testimonials ========== */
 gsap.from(".testimonials-item", {
    opacity: 0,
-   duration: 4,
-   delay: 1,
+   duration: 5,
+   delay: 3,
    y: 100,
    ease: "expo-out",
-   stagger: 0.6,
+   stagger: 0.8,
 });
 
 gsap.registerPlugin(ScrollTrigger);
@@ -82,18 +82,13 @@ gsap.to(".testimonials-item", {
 });
 
 /* ========== Spciality ========== */
-gsap.from(".speciality-item-left", { opacity: 0, duration: 6, delay: 1.9, x: -100 });
+gsap.from(".speciality-item-left", { opacity: 0, duration: 6, delay: 3, x: -100 });
 
-gsap.from(".speciality-item-right", { opacity: 0, duration: 7, delay: 2, x: 100 });
-
-/* ========== Contact ========== */
-gsap.from("#contact-item-one", { opacity: 0, duration: 8, delay: 2.5, x: -150 });
-gsap.from("#contact-item-two", { opacity: 0, duration: 9, delay: 2.6, y: -150 });
-gsap.from("#contact-item-three", { opacity: 0, duration: 10, delay: 2.7, x: 150 });
+gsap.from(".speciality-item-right", { opacity: 0, duration: 7, delay: 4, x: 100 });
 
 /* ========== Live Class ========== */
-gsap.from("#live-class-item-left", { opacity: 0, duration: 11, delay: 2.9, y: -150 });
-gsap.from("#live-class-item-right", { opacity: 0, duration: 12, delay: 3, y: 150 });
+gsap.from("#live-class-item-left", { opacity: 0, duration: 11, delay: 5, y: -150 });
+gsap.from("#live-class-item-right", { opacity: 0, duration: 12, delay: 6, y: 150 });
 
 /* ========== Courses, Books, Boards ========== */
 gsap.from(".card", {
@@ -106,7 +101,7 @@ gsap.from(".card", {
 });
 
 /* ========== Tutor ========== */
-gsap.from("#tutor-one", { opacity: 0, duration: 10, delay: 6, y: -150 });
-gsap.from("#tutor-two", { opacity: 0, duration: 10, delay: 6.1, y: 150 });
-gsap.from("#tutor-three", { opacity: 0, duration: 10, delay: 6.2, x: -150 });
-gsap.from("#tutor-four", { opacity: 0, duration: 10, delay: 6.3, x: 150 });
+gsap.from("#tutor-one", { opacity: 0, duration: 15, delay: 8, y: -150 });
+gsap.from("#tutor-two", { opacity: 0, duration: 16, delay: 8.5, y: 150 });
+gsap.from("#tutor-three", { opacity: 0, duration: 17, delay: 9, x: -150 });
+gsap.from("#tutor-four", { opacity: 0, duration: 18, delay: 9.5, x: 150 });
